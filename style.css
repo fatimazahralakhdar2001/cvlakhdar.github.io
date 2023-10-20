@@ -1,0 +1,139 @@
+/* Style du corps du CV */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style du titre et de la photo du CV */
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo {
+    margin-left: 7%;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+
+}
+
+.des {
+    flex-grow: 1;
+}
+
+h3 {
+    color: #800080;
+}
+
+.post {
+    font-style: italic;
+}
+
+/* Style des icônes et informations du contact */
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Style des sections gauche et droite */
+.section-left,
+.section-right {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Style des points forts */
+h4 {
+    color: #800080;
+}
+
+hr.light {
+    background-color: #800080;
+    height: 2px;
+    border: none;
+}
+
+.Point {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+Point Fort {
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+
+/* Style des formations et expériences professionnelles */
+div {
+    margin-bottom: 10px;
+}
+
+div b {
+    color: #800080;
+}
+
+/* Style des compétences techniques */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style des langues et barres de compétence */
+.skls {
+    display: flex;
+    flex-direction: column;
+}
+
+.po {
+    display: flex;
+    align-items: center;
+}
+
+.cool {
+    background-color: #f3f3f3;
+    height: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.inner {
+    height: 100%;
+    background-color: #800080;
+    border-radius: 10px;
+    width: 50%; /* Largeur de la barre pour l'espagnol (50%) */
+}
+
+/* Style des centres d'intérêt */
+.interet {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interet b {
+    background-color: #800080;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
